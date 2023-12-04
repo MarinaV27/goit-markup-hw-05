@@ -524,7 +524,8 @@ color: #F4F4FD;
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    transition: stroke rgba(0, 0, 0, 0.10);
+    stroke-width: 1px;
+    transition: fill rgba(0, 0, 0, 0.10);
 }
 
 .modal-close-btn:hover,
