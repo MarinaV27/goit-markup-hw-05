@@ -512,6 +512,7 @@ color: #F4F4FD;
 .modal {
     width: 408px;
     height: 584px;
+    padding: 24px;
     border-radius: 4px;
     background: #FCFCFC;
     position: absolute;
