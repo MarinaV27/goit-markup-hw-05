@@ -11,8 +11,8 @@
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css" />
+        crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <link rel="stylesheet" href="./css/styles.css" >
 </head>
 <body>
     <!--HEADER-->
@@ -416,37 +416,35 @@
         <div class="footer-social-list list">
             <div class="footer-class-btn">
                 <p class="footer-link">Subscribe</p>
-                <form class="review-form-footer">
+            <form class="review-form-footer">
 
-                    <label class="review-form-footer-label" for="user-email"></label>
+                    <label class="review-form-footer-label" for="user-email-footer"></label>
                     <div class="review-form-footer-input-wrapper">
-                        <input class="review-form-footer-input" id="user-email" name="user-email" type="email"  placeholder="Email" required />
+                        <input class="review-form-footer-input" id="user-email-footer" name="user-email" type="email"  placeholder="Email" required >
                         
-                </div>
                 </div>
                 <div class="footer-social-list list">
                         <button class="button-footer" type="submit">
                                     Subscribe
-                            <a href="">
+                               
                                 <svg class="footer-list-icon" width="24" height="24" aria-label="iicon-linkedin">
                                     <use href="./images/icons.svg#icon-Frame-3"></use>
                                 </svg>   
-                            </a>
-                        </button>
+                            </button>
                 </div>
-                    </form>
+            </form>
             </div>    
 
             
 
        </div>
-   
+        </div>
     </footer>
     <!---------------------Modal----------------------->  
 
  <div class="backdrop is-open">
     <div class="modal">
-        <button class="modal-close-btn" type="submit">
+        <button class="modal-close-btn" type="button">
             <svg class="modal-close-btn-icon" width="8" height="8" aria-label="icon-close">
                 <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
             </svg>
@@ -456,8 +454,8 @@
             <div class="review-form-field-wrapper">
                 <label class="review-form-field-label" for="user-name">Name</label>
                 <div class="review-form-input-wrapper">
-                    <input class="review-form-input" id="user-name" name="user-name" type="text" required />
-                    <svg class="review-form-input-icon" width="18" height="18" aria-label="icon-user" >
+                    <input class="review-form-input" id="user-name" name="user-name" type="text" required >
+                    <svg class="review-form-input-icon" width="18" height="24" aria-label="icon-user" >
                         <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
                     </svg>
                 </div>
@@ -467,7 +465,7 @@
             <div class="review-form-field-wrapper">
                 <label class="review-form-field-label" for="user-tel">Phone</label>
                 <div class="review-form-input-wrapper">
-                    <input class="review-form-input" id="user-tel" name="user-tel" type="tel" required />
+                    <input class="review-form-input" id="user-tel" name="user-tel" type="tel" required >
                     <svg class="review-form-input-icon" width="18" height="24" aria-label="icon-phone" >
                         <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
                     </svg>
@@ -478,7 +476,7 @@
             <div class="review-form-field-wrapper">
                 <label class="review-form-field-label" for="user-email">Email</label>
                 <div class="review-form-input-wrapper">
-                    <input class="review-form-input" id="user-email" name="user-email" type="email" required />
+                    <input class="review-form-input" id="user-email" name="user-email" type="email" required >
                     <svg class="review-form-input-icon" width="18" height="24" aria-label="icon-email" >
                         <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
                     </svg>
@@ -487,18 +485,18 @@
 
 
             <div class="review-form-field-wrapper">
-                <label class="review-form-field-label" for="">Comment</label>
-                <textarea class="review-form-comment" name="user-comment" id="user-comment" cols="" rows="" placeholder="Text input" required></textarea>
+                <label class="review-form-field-label" for="user-comment">Comment</label>
+                <textarea class="review-form-comment" name="user-comment" id="user-comment" placeholder="Text input" required></textarea>
             </div>
 
            
 
             <div class="review-form-checkbox-wrapper">
-                <input class="review-form-checkbox visually-hidden" id="user-privasy-policy" name="user-privasy-policy" type="checkbox" />
-                <label class="review-form-checkbox-label" for="user-privasy-policy">
+                <input class="review-form-checkbox visually-hidden" id="user-privasy" name="user-privasy" type="checkbox" >
+                <label class="review-form-checkbox-label" for="user-privasy">
                     <span class="review-form-own-checkbox">
                         <svg class="review-form-own-checkbox-icon" width="10" height="8" aria-label="Property-click">
-                            <use href="/images/icons.svg#icon-Vector"></use>
+                            <use href="./images/icons.svg#icon-Vector"></use>
                         </svg>
                     </span>I accept the terms and conditions of the
                     <a class="accent-color" href="">Privacy Policy</a>
