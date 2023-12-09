@@ -513,6 +513,19 @@ color: #F4F4FD;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+.review-form-footer-input{
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    
+}
+
+.footer-link {
+    margin-bottom: 16px;
+}
 
 /*============================Modal===============*/
 
